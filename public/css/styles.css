@@ -1,0 +1,104 @@
+h1{
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 1em;
+}
+
+label {
+  color: grey;
+  margin: 10px auto;
+}
+
+/* Containers */
+.container-fluid {
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+
+/* Navigation Bar */
+.navbar {
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+  .navbar li{
+    margin: 0 1em 5px;
+  }
+
+/* Footer */
+.footer {
+  background-color: #1abc9c;
+  bottom: 0;
+  height: 60px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+  .footer-padding {
+    padding-bottom: 60px;
+  }
+
+  .footer p {
+    color: #fff;
+    font-size: 12px;
+    margin-top: 25px;
+  }
+
+/* Buttons */
+.btn-primary{
+  margin-top: 10px;
+}
+
+/* Welcome Section */
+#welcome {
+  text-align: center;
+  margin: 2em auto;
+  padding: 4em;
+}
+
+/* Messages Section */
+#messages {
+  margin: 2em auto;
+  width: 85%;
+}
+
+/* Message Cards */
+.card {
+  border-radius: 20px !important;
+  margin-bottom: 2em;
+}
+
+  .card-text {
+    padding: 2em;
+    text-align: left;
+    white-space: pre-wrap;
+  }
+
+  .card-footer {
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    font-size: 0.9em;
+    text-align: right;
+  }
+
+.bi-clock{
+  margin-bottom: 2px;
+  margin-right: 5px;
+}
+
+/* Compose Message Section */
+#compose {
+  margin: 2em auto;
+  padding: 2em;
+}
+
+.required:after {
+  color: red;
+  content: " *";
+}

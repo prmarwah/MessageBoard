@@ -1,0 +1,18 @@
+<%- include("partials/header") -%>
+
+<section id="compose">
+
+  <h1>Send a Message</h1>
+  <form action="/compose" method="post">
+    <div class="form-group">
+      <label class="required">Message</label>
+      <textarea class="form-control" name="newBody" rows="4" required></textarea>
+      <label>Name</label>
+      <input type="text" name="name" class="form-control" autocomplete="off">
+    </div>
+    <button class="btn btn-primary" name="button" type="submit">Post</button>
+  </form>
+
+</section>
+
+<%- include("partials/footer") -%>
